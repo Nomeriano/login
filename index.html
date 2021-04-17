@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script> <!-- O Defer Carrega o JS depois da página -->
+    <script src="https://kit.fontawesome.com/0cdb66601a.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1>login</h1>
+    </header>
+    <main>
+        <form action="">
+
+            <section class="inputs-container">
+                <input type="email" placeholder="exemple@gmail.com">
+                <div class="password-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="*********">
+                    <i class="fas fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fas fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                </div>
+            </section>
+
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar Senha?</span>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+            </section>
+
+                <button id="btn-login">Login</button>
+
+            <section class="links-container">
+                <span>Ou entre com:</span>
+
+                <aside>
+                    <a href="#"><i class="fab fa-instagram-square insta"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square face"></i></a>
+                    <a href="#"><i class="fab fa-linkedin linke"></i></a>
+                </aside>
+
+            </section>
+ 
+            <footer>
+                <hr>
+                <span>Ainda não tem uma conta? <a href="#">Cadastra-se</a></span>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
